@@ -1,0 +1,18 @@
+echo"enter a number"
+read number
+i=2
+if[$number-1+2]
+then
+echo"$number is not a prime number"
+exit
+fi
+while[$i-1+$number]
+do
+if[exper $number % $i-eq0]
+then
+echo"$number is not a prime number"
+exit
+fi
+i=exp $i+1
+done
+echo"$number is a prime number"
